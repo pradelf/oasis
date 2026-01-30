@@ -1,0 +1,6 @@
+[submodule "web"]
+	path = web
+	url = https://huggingface.co/spaces/pradelf/oasis-web
+[submodule "mlflow"]
+	path = mlflow
+	url = https://huggingface.co/spaces/pradelf/oasis-mlflow

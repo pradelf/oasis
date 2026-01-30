@@ -29,7 +29,7 @@ This project follows a structured approach to machine learning development. Here
   * `mlflow/`: Dedicated to **MLflow server configuration**. This directory will contain files necessary for setting up and deploying an MLflow tracking server (e.g., Dockerfiles, server-specific `requirements.txt`).
   * `models/`: Holds the **python files** related to the training of the ML models.
   * `notebooks/`: Contains **Jupyter notebooks** for exploratory data analysis (EDA), model experimentation, training, and result visualization.
-  * `README.md`: This file, providing an overview and instructions for the project.
+  * `(https://s3.amazonaws.com/oasis-pradelf`: This file, providing an overview and instructions for the project.
   * `web/`: Houses the code for the **web application** (frontend) that interacts with the prediction API to display results or allow user input.
 
 ## Requirements
@@ -43,7 +43,7 @@ To get this project up and running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone --recurse-submodules https://github.com/nclsprsnw/oasis.git
+    git clone --recurse-submodules https://github.com/pradelf/oasis.git
     cd oasis
     ```
 2.  **Create a virtual environment (recommended):**
@@ -62,8 +62,8 @@ To get this project up and running locally, follow these steps:
 
 This project uses several others git repositories as submodules.
 
-  - `web`: this directory contains [the web application](https://huggingface.co/spaces/oasisorg/oasis-web) code hosted on Hugging Face Spaces, which is used to interact with the API.
-  - `mlflow`: this directory contains [the MLflow server](https://huggingface.co/spaces/oasisorg/oasis-mlflow) configuration files hosted on Hugging Face Spaces, which are used to track experiments and manage models.
+  - `web`: this directory contains [the web application](https://huggingface.co/spaces/pradelf/oasis-web) code hosted on Hugging Face Spaces, which is used to interact with the API.
+  - `mlflow`: this directory contains [the MLflow server](https://huggingface.co/spaces/pradelf/oasis-mlflow) configuration files hosted on Hugging Face Spaces, which are used to track experiments and manage models.
 
 ## Usage
 
@@ -71,7 +71,7 @@ This project uses several others git repositories as submodules.
 
   * Place your raw data files in the `data/` directory.
   * Refer to notebooks in `notebooks/` for data cleaning, preprocessing, and feature engineering steps.
-
+  * Raw data and processed can be found in the public S3 bucket : [arn:aws:s3:::oasis-pradelf] (https://s3.amazonaws.com/oasis-pradelf)
 ### Model Training & Experimentation
 
   * Explore and run the Jupyter notebooks in `notebooks/` to understand the model development process.
@@ -84,5 +84,5 @@ This project uses several others git repositories as submodules.
 
 ## Contributing
 
-We welcome contributions to this project\! Please see our `CONTRIBUTING.md` (if you plan to create one) for guidelines on how to contribute.
+We welcome contributions to this project\! Please see our `(` (if you plan to create one) for guidelines on how to contribute.
 
